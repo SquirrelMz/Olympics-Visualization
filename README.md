@@ -1,7 +1,7 @@
 # Olympics-Visualization
 Course Project of Data Analysis and Visualization
 
-# 文件说明
+## 文件说明
 
 代码的文件结构如下：
 
@@ -29,13 +29,13 @@ Course Project of Data Analysis and Visualization
 
 ------
 
-# 环境
+## 环境
 
 python版本为3.9
 
 数据和文本类型的可视化相对独立，单独说明
 
-## 1. 数据可视化（除文本）部分
+### 1. 数据可视化（除文本）部分
 
 ```
 matplotlib                3.3.4
@@ -47,7 +47,7 @@ pandas                    1.3.4
 scipy                  	  1.7.1
 ```
 
-## 2. 文本可视化部分
+### 2. 文本可视化部分
 
 * 爬虫代码，在`spider`文件夹中，针对`getText_wb.ipynb`、`getText_bb.ipynb`和`getText_ceremony.ipynb`文件，这部分在可视化时不需要运行，仅为获取文本数据所用，所需的第三方包：
 
@@ -69,11 +69,12 @@ snownlp                   0.12.3
 
 ------
 
-# 数据集
+## 数据集
 
 1. 第一部分主要为以下三个文件：
 
 * `Olympic.csv`：将原本从kaggle下载的两个数据集进行合并与中英文翻译后得到，包括在各届奥运会的名称、年份、季节、开设城市等信息，以及各运动员的姓名、性别、国家、年龄、身高等一系列数据
+* 由于数据集过大，上传为'Olympic.zip'
 
 * `Ma.xlsx`和`pingpong.xlsx`：用于可视化中“中国优势项目与选手——以男子乒乓球单打为例”部分。前者为中国男子乒乓球选手马龙的比赛数据，后者包括了中国男子乒乓球队多年来各选手的比赛数据
 
